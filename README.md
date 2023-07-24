@@ -1,4 +1,4 @@
-Event Driven Pedestrian Vehicle Detection with OpenCV and Yolo
+#Event Driven Pedestrian Vehicle Detection with OpenCV and Yolo
 Abstract:
 
 Most of the deep neural object detection/classification models such as R-CNN, Faster R-CNN & SSD require significantly higher computational power to achieve respectable FPS & Accuracy. But, we need a different cnn-based neural architecture to cater the scenarios where the object detection task is to be executed in real-time rather than waiting for hours to process a 10 min video stream or to run the detector on limited/low-power hardware. Thus, in this project, we implement a real-time event-driven Vehicle Detection & Counting system using the OpenCV's Yolo v3 (608 x 608) implementation. The model detects and counts pedestrians/vehicles that cross a line of interest projected in any axis within the video stream.
